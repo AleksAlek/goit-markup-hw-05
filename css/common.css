@@ -27,6 +27,10 @@
   /* Advantages card */
   --background-icon: #f5f4fa;
 
+  /* Work list */
+  --work-list-color: #ffffff;
+  --work-list-background: rgba(47, 48, 58, 0.8);
+
   /* Our team */
   --background-team: #f5f4fa;
   --color-icon: #afb1b8;
@@ -40,6 +44,8 @@
 
   /* Portfolio card */
   --portfolio-card-border: #eeeeee;
+  --portfolio-text-color: #ffffff;
+  --portfolio-text-background: rgba(33, 150, 243, 0.9);
 
   /* Footer block */
   --footer-color: #2f303a;
