@@ -49,6 +49,9 @@
 
   /* Card set gap */
   --card-set-gap: 30px;
+
+  /* Animation */
+  --transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /* Common */
@@ -139,8 +142,9 @@ p {
   font-size: 14px;
   line-height: 1.15;
   letter-spacing: 0.02em;
-
   color: var(--main-text-color);
+
+  transition: color 250ms var(--transition-timing-function);
 }
 
 .navigation-link:hover,
@@ -214,8 +218,9 @@ p {
   font-size: 14px;
   line-height: 1.15;
   letter-spacing: 0.02em;
-
   color: var(--secondary-text-color);
+
+  transition: color 250ms var(--transition-timing-function);
 }
 
 .contacts-header:hover,
@@ -355,6 +360,8 @@ p {
 
   background-color: var(--background-social-link);
   color: var(--join-icon-color);
+
+  transition: background-color 250ms var(--transition-timing-function);
 }
 
 .join-social-link:hover,

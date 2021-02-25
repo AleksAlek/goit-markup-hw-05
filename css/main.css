@@ -190,6 +190,9 @@
   align-items: center;
 
   color: var(--color-icon);
+
+  transition: background-color 250ms var(--transition-timing-function),
+    color 250ms var(--transition-timing-function);
 }
 
 .team-social-link:hover,
@@ -229,6 +232,9 @@
   align-items: center;
 
   color: var(--color-icon);
+
+  transition: color 250ms var(--transition-timing-function),
+    border-color 250ms var(--transition-timing-function);
 }
 
 .customers-link:hover,
